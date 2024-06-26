@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PDB">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="msf_reader.cpp">
+      <Filter>PDB</Filter>
+    </ClCompile>
+    <ClCompile Include="pdb_reader.cpp">
+      <Filter>PDB</Filter>
+    </ClCompile>
+    <ClCompile Include="coff_reader.cpp" />
+    <ClCompile Include="Blink_Linker.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="blink.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="msf_reader.h">
+      <Filter>PDB</Filter>
+    </ClInclude>
+    <ClInclude Include="pdb_reader.h">
+      <Filter>PDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Scoped_Handle.h" />
+    <ClInclude Include="coff_reader.h" />
+    <ClInclude Include="blink.h" />
+  </ItemGroup>
+</Project>
